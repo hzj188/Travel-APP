@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">luxingapp</string>
+
+    <string name="homePage">笔记列表</string>
+    <string name="mallPage">信息发布</string>
+    <string name="StarPointsExchangePage">星乐拼团</string>
+    <string name="minePage">我的</string>
+
+
+    <string name="pleaseEnterTheOldPassword">请输入旧密码</string>
+    <string name="pleaseEnterANewPassword">请输入新密码</string>
+    <string name="enterTheNewPasswordAgain">再次输入新密码</string>
+    <string name="confirmTheNewPassword">确认新密码</string>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@mipmap/icon_home"
+        android:title="@string/homePage" />
+    <item
+        android:id="@+id/news"
+        android:icon="@mipmap/icon_news"
+        android:title="@string/mallPage" />
+<!--    <item-->
+<!--        android:id="@+id/xingfen"-->
+<!--        android:icon="@mipmap/icon_xingfen"-->
+<!--        android:title="@string/StarPointsExchangePage" />-->
+
+    <item
+        android:id="@+id/mine"
+        android:icon="@mipmap/icon_mine"
+        android:title="@string/minePage" />
+</menu>

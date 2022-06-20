@@ -1,0 +1,51 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.0"
+
+    defaultConfig {
+        applicationId "com.app.luxingapp"
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    compile 'com.zhy:okhttputils:2.0.0'
+    implementation 'com.google.code.gson:gson:2.9.0'
+    compile 'com.alibaba:fastjson:1.2.76'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'//Glide+高斯模糊
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'//Glide+高斯模糊
+
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation  'io.github.scwang90:refresh-layout-kernel:2.0.5'
+    implementation  'io.github.scwang90:refresh-header-classics:2.0.5'    //经典刷新头
+    implementation 'io.github.lucksiege:pictureselector:v2.7.3-rc02'//图片选择
+    implementation 'com.contrarywind:Android-PickerView:4.1.9'//日期选择
+}
